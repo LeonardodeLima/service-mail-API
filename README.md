@@ -35,7 +35,9 @@ ESlint: https://github.com/eslint/eslint
 ### uso
 
 ```
- POST /sendMail
+ HTTP verb: POST
+ path: /sendMail
+ body: to, from, subject, text
 ```
 
 ### run buil
