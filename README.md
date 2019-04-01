@@ -22,7 +22,7 @@ ESlint: https://github.com/eslint/eslint
 
  - Obtenha uma KEY no sendgrid [crie uma conta](https://sendgrid.com/docs/for-developers/sending-email/api-getting-started/)
  
-### server
+### servidor
 
 ```
  1 cd service-mail-API
@@ -30,6 +30,12 @@ ESlint: https://github.com/eslint/eslint
  3 crie o arquivo .env (baseando-se em .env.example)
  4 npm run dev
  disponível: http://localhost:4000
+```
+
+### uso
+
+```
+ POST /sendMail
 ```
 
 ### run buil
