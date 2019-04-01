@@ -7,4 +7,4 @@ App.get('/', (req, res) => {
   res.status(202).send('ON')
 })
 
-App.listen(4000)
+App.listen(process.env.PORT)
